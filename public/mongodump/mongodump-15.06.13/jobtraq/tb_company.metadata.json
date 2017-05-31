@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "name" : "_id_", "ns" : "jobtraq.tb_company" }, { "v" : 1, "key" : { "deleted" : { "$numberLong" : "1" } }, "name" : "deleted_id_key", "ns" : "jobtraq.tb_company" }, { "v" : 1, "key" : { "lower('name')" : { "$numberLong" : "1" }, "caseInsensitive" : true }, "name" : "name_id_key", "ns" : "jobtraq.tb_company" } ] }
